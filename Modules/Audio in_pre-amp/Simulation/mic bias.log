@@ -1,0 +1,31 @@
+Circuit: * D:\Engineering\Circuit Repository\Circuits\Audio in_pre-amp\Simulation\mic bias.asc
+
+WARNING: Less than two connections to node N007.  This node is used by R7.
+Direct Newton iteration for .op point succeeded.
+Ignoring empty pin current: Ix(u2:1)
+Ignoring empty pin current: Ix(u2:2)
+Ignoring empty pin current: Ix(u2:1)
+Ignoring empty pin current: Ix(u2:2)
+.step mic=50000
+.step mic=100000
+.step mic=150000
+.step mic=200000
+
+Date: Sun Dec 28 14:27:53 2014
+Total elapsed time: 0.187 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2095
+traniter = 2092
+tranpoints = 1047
+accept = 1047
+rejected = 0
+matrix size = 8
+fillins = 3
+solver = Normal
+Matrix Compiler1: 424 bytes object code size  0.2/0.1/[0.1]
+Matrix Compiler2: 574 bytes object code size  0.2/0.2/[0.1]
+
+

@@ -1,0 +1,13 @@
+* D:\Engineering\Circuit Repository\Modules\VCA_1\Simulation\Opto-reciever.asc
+V1 N003 0 PULSE(0 2 0 .1 .1 0 .2 1)
+XU1 N001 0 N002 opamp Aol=100K GBW=10Meg
+R4 N001 N003 200k
+R3 N002 N001 {r_opto}
+V6 -12v 0 -12
+V5 12v 0 12
+.dc v1 0 5 
+.lib opamp.sub
+.step param r_opto 200k 500k 100k
+* wavefile="441khz.wav"
+.backanno
+.end

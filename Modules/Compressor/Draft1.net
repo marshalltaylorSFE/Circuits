@@ -1,0 +1,11 @@
+* C:\Users\Marshall\Desktop\compressor\Draft1.asc
+V1 N001 0 PULSE(0 5 0 0 0 100m 200m 3)
+R1 N002 N003 10k
+R2 N003 0 1k
+C1 N003 0 22µ
+D1 N001 N002 1N914
+.model D D
+.lib D:\Program Files (x86)\LTC\LTspiceIV\lib\cmp\standard.dio
+.tran .5
+.backanno
+.end

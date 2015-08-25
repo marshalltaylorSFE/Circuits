@@ -1,0 +1,26 @@
+Circuit: * D:\Engineering\Circuit Repository\Circuits\Op-amp mixer\Simulation\4+4-mixer.asc
+
+.OP point found by inspection.
+Ignoring empty pin current: Ix(u2:1)
+Ignoring empty pin current: Ix(u2:2)
+Ignoring empty pin current: Ix(u2:1)
+Ignoring empty pin current: Ix(u2:2)
+
+Date: Sun Dec 28 13:27:39 2014
+Total elapsed time: 0.140 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2878
+traniter = 2878
+tranpoints = 1440
+accept = 1304
+rejected = 136
+matrix size = 11
+fillins = 1
+solver = Normal
+Matrix Compiler1: 306 bytes object code size  0.5/0.3/[0.1]
+Matrix Compiler2: 711 bytes object code size  0.4/0.5/[0.1]
+
+

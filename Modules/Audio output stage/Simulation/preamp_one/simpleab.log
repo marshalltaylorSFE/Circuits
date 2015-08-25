@@ -1,0 +1,22 @@
+Circuit: * D:\Engineering\Circuit Repository\Circuits\Audio output stage\Simulation\preamp_one\simpleab.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Fri Jun 13 22:40:00 2014
+Total elapsed time: 0.143 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 5542
+traniter = 5538
+tranpoints = 2113
+accept = 1491
+rejected = 622
+matrix size = 27
+fillins = 20
+solver = Normal
+Matrix Compiler1: 3.02 KB object code size  3.2/2.6/[0.8]
+Matrix Compiler2: 2.63 KB object code size  1.5/2.3/[0.9]
+
+

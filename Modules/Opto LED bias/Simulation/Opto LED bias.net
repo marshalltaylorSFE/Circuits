@@ -1,0 +1,10 @@
+* D:\Engineering\Circuit Repository\Circuits\Opto LED bias\_Simulation\Opto LED bias.asc
+XU1 N004 N002 N003 opamp Aol=100K GBW=10Meg
+R4 N002 N001 10
+V5 N003 N004 1.8
+R5 N004 0 3320
+V1 N001 0 PULSE(0 12 0 .1 .1 .001 .2 1)
+.tran 0 .1 0
+.lib opamp.sub
+.backanno
+.end
